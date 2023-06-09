@@ -10,7 +10,14 @@
     background-color: #E3F4F4;
 }
 
-@media (max-width: 768px) {
+.links {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    margin-left: 70px;
+}
+
+/* @media (max-width: 768px) {
     .links {
         display: flex;
         position: relative;
@@ -19,9 +26,9 @@
         justify-content: flex-end;
         margin-left: 40%;
     }
-}
+} */
 
-@media (max-width: 960px) {
+/* @media (max-width: 960px) {
     .links {
         display: flex;
         position: relative;
@@ -52,7 +59,7 @@
         justify-content: flex-end;
         margin-left: 90%;
     }
-} 
+}  */
 
 .links a {
     text-decoration: none;

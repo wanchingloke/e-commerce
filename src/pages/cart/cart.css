@@ -120,3 +120,17 @@
 .cart {
     margin-bottom: 50px;
 }
+
+@media (max-width: 768px) and (min-width: 0px){
+    #product-desc {
+        display: none;
+    }
+
+    .cart-image {
+        width: 60px;
+    }
+
+    #product-name, #product-size {
+        font-size: 15px;
+    }
+}
