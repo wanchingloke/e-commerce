@@ -40,6 +40,8 @@
 .product img{
   border-radius: 50px;
   padding-bottom: 15px;
+  width: 50%;
+  align-items: center;
 }
 
 .product-group p {
