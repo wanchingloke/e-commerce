@@ -5,7 +5,7 @@ import '../components/footer.css';
 export const Footer = () => {
     return (
         <div className="footer">
-            <Link to= "/"><p className="home">Home</p></Link>
+            <Link to= "/e-commerce"><p className="home">Home</p></Link>
             <Link to= "/cart"><p className="home">Cart</p></Link>
             <p className="contact-me">Contact Me here: +65 91234567   |   hookedonyarn@hotmail.com</p>
             <img src={require('../assets/instagram.png')}/>
